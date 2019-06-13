@@ -1,0 +1,11 @@
+name: FileDownloads
+modelClass: ChananSystems\FileDownloads\Models\FileDownload
+form: $/chanansystems/filedownloads/models/filedownload/fields.yaml
+defaultRedirect: chanansystems/filedownloads/filedownloads
+create:
+    redirect: 'chanansystems/filedownloads/filedownloads/update/:id'
+    redirectClose: chanansystems/filedownloads/filedownloads
+update:
+    redirect: chanansystems/filedownloads/filedownloads
+    redirectClose: chanansystems/filedownloads/filedownloads
+preview: {  }

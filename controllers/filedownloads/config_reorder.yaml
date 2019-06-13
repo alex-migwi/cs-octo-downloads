@@ -1,0 +1,5 @@
+title: FileDownloads
+modelClass: ChananSystems\FileDownloads\Models\FileDownload
+nameFrom: name
+toolbar:
+    buttons: reorder_toolbar

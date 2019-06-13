@@ -1,0 +1,11 @@
+plugin:
+    name: 'chanansystems.filedownloads::lang.plugin.name'
+    description: 'chanansystems.filedownloads::lang.plugin.description'
+    author: chanan-systems
+    icon: oc-icon-download
+    homepage: 'https://chanansystems.co.ke/octobercms/plugins'
+navigation:
+    main-menu-item:
+        label: Downloads
+        url: chanansystems/filedownloads/filedownloads
+        icon: icon-life-ring

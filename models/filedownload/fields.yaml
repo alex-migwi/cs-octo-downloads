@@ -1,0 +1,21 @@
+fields:
+    name:
+        label: 'File Name'
+        span: full
+        type: text
+        commentAbove: 'Readable Name'
+    description:
+        label: Description
+        size: large
+        span: full
+        type: textarea
+        comment: Optional
+    downloadfile:
+        label: 'File upload'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload

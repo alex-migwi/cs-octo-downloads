@@ -1,0 +1,26 @@
+{% set downloads  = __SELF__ .downloads %}
+
+<!-- Listing downloadable files -->
+<ul>
+    {% for file in downloads %}
+
+    <li>
+        <!-- Other file details -->
+
+        <h2>{{ file.name }} </h2>
+
+        {{ file.description | raw }}
+
+        <p></p>
+        <!-- Download Form -->
+        <a class="btn" data-attach-loading href="{{ file.downloadfile.path }}"
+            download="{{ file.downloadfile.file_name }}"><i class="fa fa-download"></i> &nbsp Download File</a>
+        <hr>
+        <br>
+    </li>
+    {% else %}
+
+    <h3>No files found.</h3>
+
+    {% endfor %}
+</ul>
