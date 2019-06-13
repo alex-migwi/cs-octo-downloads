@@ -3,9 +3,10 @@ This is a simple file downloads plugins that allows files to be uploaded on the 
 
 ## Getting Started
 
-1.To use this plugin just upload to the plugins folder in OctoberCMS.
-2.Upload files on the backend via Downloads Menu 
-3.Add the filedownloads component to the downloads resource page
+
+*  To use this plugin just upload to the plugins folder in OctoberCMS.
+*  Upload files on the backend via Downloads Menu 
+*  Add the filedownloads component to the downloads resource page
 
 ```
 {% component 'downloadlist' %}
